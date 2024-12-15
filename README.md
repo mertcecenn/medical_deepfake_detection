@@ -1,6 +1,6 @@
 # medical_deepfake_detection
 Requirements and Installation
-The repo was written using Python 3.8
+The repository was written in Google Colab environment using Python
 
 Dataset:
 
@@ -9,4 +9,5 @@ The dataset created in Roboflow, located at https://universe.roboflow.com/medica
 Inspired from :
 
 YOLOv8 implementation : https://github.com/ultralytics/ultralytics
+                      : https://github.com/roboflow/notebooks
 
