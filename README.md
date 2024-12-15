@@ -1,4 +1,4 @@
-# medical_deepfake_detection
+# Medical_deepfake_detection
 Requirements and Installation
 The repository was written in Google Colab environment using Python
 
