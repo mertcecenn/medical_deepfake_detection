@@ -35,6 +35,7 @@ Breast Ultrasound images
 This project is inspired by the following implementations:
 
 YOLOv8 Implementation by Ultralytics :  https://github.com/ultralytics/ultralytics 
+
 Roboflow Example Notebooks :  https://github.com/ultralytics/ultralytics 
 
 ## Run the Code
@@ -42,35 +43,39 @@ To run the code and perform medical deepfake detection, follow these steps:
 
 Clone the Repository:
 Download or clone this repository to your local environment:
+
 ```bash
 git clone https://github.com/yourusername/Medical_Deepfake_Detection.git
 cd Medical_Deepfake_Detection
 ```
-Open the Notebook:
+## Open the Notebook:
 Open the Medical_Deepfake_Detection.ipynb file using Jupyter Notebook, Google Colab, or any compatible Python environment.
 
-Prepare and Load Dataset:
+## Prepare and Load Dataset:
 
 Use the provided Roboflow link to access and download the dataset.
 Ensure your dataset follows the input format with labeled images for accurate detection results.
-Execute the Notebook:
+
+## Execute the Notebook:
 Run the notebook step by step:
 
 Preprocess the data.
-Load the pre-trained YOLOv8 model.
-Perform medical deepfake detection.
-Analyze Results:
 
+Load the pre-trained YOLOv8 model.
+
+Perform medical deepfake detection.
+
+## Analyze Results:
 The model analyzes the input images and classifies them as real or fake.
 Detected regions will be displayed with bounding boxes, and the results will be shown in real time.
-Customization:
 
+## Customization:
 You can fine-tune parameters or integrate additional datasets to enhance the model's performance.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Support
+## Support
 For any questions or feedback, feel free to contact:
 mert.cecen23@gmail.com
 
