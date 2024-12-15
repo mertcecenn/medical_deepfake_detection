@@ -18,6 +18,7 @@ The project is implemented in the Google Colab environment with **Python**. Ensu
 To install the necessary libraries, use the following command:  
 ```bash
 pip install ultralytics roboflow opencv-python-headless
+```
 
 ## Dataset
 The dataset used in this project was created using Roboflow and can be accessed here:
@@ -33,18 +34,18 @@ Breast Ultrasound images
 ## Inspiration
 This project is inspired by the following implementations:
 
-YOLOv8 Implementation by Ultralytics
-Roboflow Example Notebooks
+YOLOv8 Implementation by Ultralytics :  https://github.com/ultralytics/ultralytics 
+Roboflow Example Notebooks :  https://github.com/ultralytics/ultralytics 
 
-Run the Code
+## Run the Code
 To run the code and perform medical deepfake detection, follow these steps:
 
 Clone the Repository:
 Download or clone this repository to your local environment:
-
+```bash
 git clone https://github.com/yourusername/Medical_Deepfake_Detection.git
 cd Medical_Deepfake_Detection
-
+```
 Open the Notebook:
 Open the Medical_Deepfake_Detection.ipynb file using Jupyter Notebook, Google Colab, or any compatible Python environment.
 
