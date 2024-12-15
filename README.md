@@ -1,22 +1,75 @@
-# Medical_deepfake_detection
-# Requirements and Installation
-The repository was written in Google Colab environment using Python
+# Medical Deepfake Detection  
 
-Dataset:
+## Overview  
+This repository provides a solution for detecting medical deepfake images using a YOLOv8-based detection model. The code is implemented in Python and is designed to run in **Google Colab** or any compatible environment, such as Jupyter Notebook.  
 
-The dataset created in Roboflow, located at https://universe.roboflow.com/medical-ltrhr/medical-1h7wy, was used.
+---
 
-Inspired from :
+## Requirements and Installation  
+The project is implemented in the Google Colab environment with **Python**. Ensure you have the following dependencies installed:  
 
-YOLOv8 implementation : https://github.com/ultralytics/ultralytics
-                      : https://github.com/roboflow/notebooks
+- Python 3.8 or higher  
+- OpenCV  
+- Ultralytics (YOLOv8)  
+- NumPy  
+- Pandas  
+- Roboflow Integration  
 
-# Run Code
+To install the necessary libraries, use the following command:  
+```bash
+pip install ultralytics roboflow opencv-python-headless
+
+## Dataset
+The dataset used in this project was created using Roboflow and can be accessed here:
+Medical Deepfake Dataset
+
+The dataset includes labeled medical images in categories such as:
+
+Kidney CT images
+Lung CT images
+Brain MRI images
+Breast Ultrasound images
+
+## Inspiration
+This project is inspired by the following implementations:
+
+YOLOv8 Implementation by Ultralytics
+Roboflow Example Notebooks
+
+Run the Code
 To run the code and perform medical deepfake detection, follow these steps:
 
-Open the Medical_Deepfake_Detection.ipynb file using Jupyter Notebook or any compatible environment.
-Prepare and load your own dataset following the required input format. Ensure the dataset includes labeled images for accurate detection results.
-Execute the notebook step by step to preprocess the data, load the pre-trained YOLOv8 model, and perform the detection process.
-The model will analyze the input images and classify them as real or fake, displaying the detection results along with bounding boxes for identified regions.
-You can further customize the parameters or integrate additional datasets to enhance performance.
+Clone the Repository:
+Download or clone this repository to your local environment:
+
+git clone https://github.com/yourusername/Medical_Deepfake_Detection.git
+cd Medical_Deepfake_Detection
+
+Open the Notebook:
+Open the Medical_Deepfake_Detection.ipynb file using Jupyter Notebook, Google Colab, or any compatible Python environment.
+
+Prepare and Load Dataset:
+
+Use the provided Roboflow link to access and download the dataset.
+Ensure your dataset follows the input format with labeled images for accurate detection results.
+Execute the Notebook:
+Run the notebook step by step:
+
+Preprocess the data.
+Load the pre-trained YOLOv8 model.
+Perform medical deepfake detection.
+Analyze Results:
+
+The model analyzes the input images and classifies them as real or fake.
+Detected regions will be displayed with bounding boxes, and the results will be shown in real time.
+Customization:
+
+You can fine-tune parameters or integrate additional datasets to enhance the model's performance.
+
+License
+This project is licensed under the MIT License.
+
+Support
+For any questions or feedback, feel free to contact:
+mert.cecen23@gmail.com
 
